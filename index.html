@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zen Go</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom wood texture effect for the board */
+      .wood-texture {
+        background-color: #dcb35c;
+        background-image: 
+          linear-gradient(45deg, rgba(0,0,0,0.05) 25%, transparent 25%, transparent 75%, rgba(0,0,0,0.05) 75%, rgba(0,0,0,0.05)), 
+          linear-gradient(45deg, rgba(0,0,0,0.05) 25%, transparent 25%, transparent 75%, rgba(0,0,0,0.05) 75%, rgba(0,0,0,0.05));
+        background-size: 20px 20px;
+        background-position: 0 0, 10px 10px;
+        box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+      }
+      
+      /* Realistic stone shadows and gradients */
+      .stone-black {
+        background: radial-gradient(circle at 30% 30%, #555, #000);
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      }
+      .stone-white {
+        background: radial-gradient(circle at 30% 30%, #fff, #ddd);
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-stone-100 text-stone-800">
+    <div id="root"></div>
+  </body>
+</html>

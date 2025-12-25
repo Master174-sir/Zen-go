@@ -1,0 +1,5 @@
+{
+  "name": "Zen Go (9x9)",
+  "description": "A realistic 9x9 Go game featuring Japanese rules, automatic territory estimation, and a built-in AI opponent.",
+  "requestFramePermissions": []
+}
